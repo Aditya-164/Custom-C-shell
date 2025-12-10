@@ -2,7 +2,7 @@
 
 void help()
 {
-    printf(BOLD RED "\n===Welcome to Mohak's custom C-Shell===\n\n" RESET);
+    printf(BOLD RED "\n===Welcome to Aditya's custom C-Shell===\n\n" RESET);
     printf(WHITE "Here is the list of custom commands which you can use in this shell along with all the bash commands :-\n" RESET);
     printf("\n1) " BOLD GREEN " warp      " RESET " :-   You can use this to change the current working directory \n                    of the terminal . It can work with relative paths as well\n                    as absolute paths . You can put multiple arguments for\n                    sequential directory changing .");
     printf("\n2) " BOLD GREEN " pastevents" RESET " :-   This command can be used to retrieve past history of the \n                    commands run in the terminal . Also you can \"purge\" the\n                    history stored till now . You can also \"execute\" the\n                    commands in the history again .");
